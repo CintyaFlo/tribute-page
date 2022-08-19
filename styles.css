@@ -23,6 +23,19 @@ header ul {
   justify-content: space-evenly;
   color: var(--color-font1);
 }
+.section {
+  padding: 0 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+p {
+  text-align: justify;
+}
 img {
   max-width: 100%;
   height: auto;
