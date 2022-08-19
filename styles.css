@@ -1,5 +1,27 @@
+:root {
+  --color-bg1: #191970;
+  --color-bg2: #e6e6fa;
+  --color-font1: #eee;
+}
 * {
   box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: var(--color-bg1);
+  padding: 10px 0;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--color-font1);
 }
 img {
   max-width: 100%;
