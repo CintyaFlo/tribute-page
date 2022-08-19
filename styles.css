@@ -14,6 +14,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 header {
   background-color: var(--color-bg1);
@@ -26,6 +27,11 @@ header ul {
   display: flex;
   justify-content: space-evenly;
   color: var(--color-font1);
+}
+header a {
+  color: var(--color-font1);
+  cursor: pointer;
+  text-decoration: none;
 }
 .section {
   padding: 0 3%;
