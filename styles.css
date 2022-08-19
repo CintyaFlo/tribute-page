@@ -18,7 +18,9 @@ body {
 }
 header {
   background-color: var(--color-bg1);
-  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header ul {
   margin: 0;
@@ -27,6 +29,9 @@ header ul {
   display: flex;
   justify-content: space-evenly;
   color: var(--color-font1);
+}
+header li {
+  padding: 10px 0;
 }
 header a {
   color: var(--color-font1);
@@ -40,8 +45,13 @@ header a {
   align-items: center;
   text-align: center;
 }
+h1,
+h2,
+h3 {
+  margin: 45px 0 10px 0;
+}
 h1 {
-  margin: 10px;
+  margin: 65px 0 20px 0;
 }
 figure {
   margin: 0 10%;
@@ -77,4 +87,7 @@ img {
 
 #download {
   margin-bottom: 10px;
+}
+.endofsection {
+  margin-bottom: 0;
 }
