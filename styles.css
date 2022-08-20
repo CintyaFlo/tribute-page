@@ -24,14 +24,20 @@ header {
 }
 header ul {
   margin: 0;
-  padding: 0;
+  padding: 3px 0;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   color: var(--color-font1);
 }
 header li {
-  padding: 10px 0;
+  padding: 7px;
+}
+
+header > ul > a:hover {
+  background-color: var(--color-bg2);
+  color: var(--color-bg1);
+  cursor: pointer;
 }
 header a {
   color: var(--color-font1);
