@@ -105,6 +105,7 @@ img {
   }
   main {
     flex-basis: 75%;
+    flex-grow: 1;
   }
   header ul {
     justify-content: flex-end;
@@ -114,5 +115,9 @@ img {
   #downloads {
     padding: 0 15px 0 0;
     flex-basis: 25%;
+    max-width: 270px;
+  }
+  #downloads h2 {
+    margin-top: 65px;
   }
 }
