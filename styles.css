@@ -97,6 +97,10 @@ img {
 .endofsection {
   margin-bottom: 0;
 }
+.titles {
+  width: 100%;
+}
+
 /* tablet e desktop*/
 
 @media only screen and (min-width: 768px) {
